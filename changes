@@ -1,7 +1,6 @@
 sudo pip3 install google-api-python-client
-oauth2client
-gspread
-opencv-contrib-python==3.4.4.19
+sudo pip3 install oauth2client
+sudo pip3 install gspread
 
 sudo pip install google-auth-oauthlib
 sudo pip3 install opencv-contrib-python==3.4.4.19
