@@ -1,0 +1,27 @@
+sudo pip3 install google-api-python-client
+oauth2client
+gspread
+opencv-contrib-python==3.4.4.19
+
+sudo pip install google-auth-oauthlib
+sudo pip3 install opencv-contrib-python==3.4.4.19
+
+echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/unbind
+sudo nano /boot/config.txt
+
+dtoverlay=pi3-disable-bt
+
+arm_freq=900
+arm_freq_max=900
+arm_freq_min=150
+
+gpu_freq=250
+core_freq_min=250
+
+sdram_freq_min=250
+
+over_voltage=-3
+over_voltage_min=-8
+
+initial_turbo=30
+temp_limit=60
