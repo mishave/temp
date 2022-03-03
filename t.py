@@ -62,11 +62,11 @@ def main(DIR, WEB_DIR, device, stamp):
             print(count)
             if count == 0:
                 print("Image good")
-		    status = 'OK'
+		status = 'OK'
                 break
             else:
                 print("bad image - trying again...")
-		    status = 'NG'
+		status = 'NG'
                         
 
 
